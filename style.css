@@ -10,6 +10,7 @@
 body {
     background-color: #fefefe;
 }
+
 header {
     background-color: #11101b;
     height: 80px;
@@ -30,7 +31,7 @@ header {
     display: none;
 }
 
-.nav-bar ul{
+.nav-bar ul {
     display: flex;
 }
 
@@ -65,17 +66,20 @@ header {
         padding: 0 30px;
     }
 }
+
 @media only screen and (max-width: 900px) {
     .hamburger {
         display: block;
         cursor: pointer;
     }
+
     .hamburger .line {
         width: 30px;
         height: 3px;
         background: #fefefe;
         margin: 6px 0;
     }
+
     .nav-bar {
         height: 0px;
         position: absolute;
