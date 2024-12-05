@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: #fefefe;
+    background-color: #F2E5BF;
 }
 
 header {
-    background-color: #11101b;
+    background-color: #257180;
     height: 80px;
     width: 100%;
     display: flex;
@@ -24,7 +24,7 @@ header {
 .logo {
     font-size: 30px;
     font-weight: bold;
-    color: #fefefe;
+    color: #FD8B51;
 }
 
 .hamburger {
@@ -37,7 +37,7 @@ header {
 
 .nav-bar ul li a {
     display: block;
-    color: #fefefe;
+    color: #FD8B51;
     font-size: 20px;
     border-radius: 50px;
     transition: 0.2s;
@@ -46,12 +46,12 @@ header {
 }
 
 .nav-bar ul li a:hover {
-    color: #11101b;
+    color: #FD8B51;
     background-color: #fefefe;
 }
 
 .nav-bar ul li a.active {
-    color: #11101b;
+    color: #FD8B51;
     background-color: #fefefe;
 }
 
